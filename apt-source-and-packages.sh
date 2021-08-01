@@ -15,7 +15,7 @@ sudo apt-get install -y \
   lsb-release \
   git-all \
   software-properties-common \
-  python-dev python-pip python3-dev python3-pip \
+  python ipython3 python3-dev python3-pip \
   zsh \
   terminator \
   cmake gcc g++ make gettext
