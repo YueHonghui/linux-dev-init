@@ -18,7 +18,7 @@ sudo apt-get install -y \
   python-dev python-pip python3-dev python3-pip \
   zsh \
   terminator \
-  cmake gcc g++ make
+  cmake gcc g++ make gettext
 
 # git alias
 git config --global alias.co checkout

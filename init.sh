@@ -24,5 +24,8 @@ sh ./docker.sh
 # install neovim
 sh ./neovim.sh
 
+# alias
+sh ./alias.sh
+
 # install spacevim
 sh ./spacevim.sh
