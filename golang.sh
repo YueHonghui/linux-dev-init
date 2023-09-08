@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
-# install golang 1.17.1
+# install golang 1.20.8
 mkdir -p ~/.local/gotmp
 mkdir -p ~/.local/gobin
 mkdir -p ~/.local/bin
 mkdir -p ~/.gomodcache
 cd ~/.local/gotmp && \
-  wget "https://golang.org/dl/go1.17.1.linux-amd64.tar.gz" &&\
-  tar -zxvf go1.17.1.linux-amd64.tar.gz && \
-  mv go ../go1.17.1 && \
-  cd - && ln -s ~/.local/go1.17.1 ~/.local/go
+  wget "https://golang.org/dl/go1.20.8.linux-amd64.tar.gz" &&\
+  tar -zxvf go1.20.8.linux-amd64.tar.gz && \
+  mv go ../go1.20.8 && \
+  cd - && ln -s ~/.local/go1.20.8 ~/.local/go
 echo "GOROOT=${HOME}/.local/go" >> ~/.go.env
 echo "GOPROXY=https://goproxy.cn,direct" >> ~/.go.env
 echo "GOMODCACHE=${HOME}/.gomodcache" >> ~/.go.env

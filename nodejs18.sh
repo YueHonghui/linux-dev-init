@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# install node.js 14.x & yarn
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+# install node.js 18.x & yarn
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
